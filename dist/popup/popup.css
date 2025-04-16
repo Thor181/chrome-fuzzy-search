@@ -1,0 +1,32 @@
+
+html {
+    font-size: 14px;
+}
+
+body {
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.popup {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.popup__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.popup__title {
+    font-size: 2rem;
+}
+
+.popup__text {}
